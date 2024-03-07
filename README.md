@@ -10,6 +10,8 @@ The pre-training phase typically involves unsupervised learning, where the model
 Common pre-training techniques include training models on tasks like language modeling (e.g., predicting the next word in a sentence), autoencoding (reconstructing input data), or other unsupervised tasks.
 Pre-training aims to initialize the model's parameters in a way that captures useful features from the data, which can then be fine-tuned for specific downstream tasks.
 Examples of pre-trained models include BERT, GPT, and word2vec.
+
+
 **Fine-tuning:**
 
 Fine-tuning involves taking a pre-trained model and further training it on a smaller dataset or for a specific task.
